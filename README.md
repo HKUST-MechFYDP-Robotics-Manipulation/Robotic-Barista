@@ -20,11 +20,7 @@ The files contain main program for coffee and latte art making and supporting dr
 
 ## Authors
 
-Yu Hin Ng
-Lok Fung Lee
-Yuen Shan Leung
-Pik Shan Shih
-Wai Man Wong
+Yu Hin Ng, Lok Fung Lee, Yuen Shan Leung, Pik Shan Shih, Wai Man Wong
 
 ## Acknowledgments
 
