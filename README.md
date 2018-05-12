@@ -17,3 +17,15 @@ The files contain main program for coffee and latte art making and supporting dr
 * [Robotiq](http://wiki.ros.org/robotiq) - ROS drivers for Robotiq Grippers and Force Torque Sensor
 * [Android](http://wiki.ros.org/android) - ROS-Android development
 * [usb_cam](http://wiki.ros.org/usb_cam) - ROS driver for USB camera
+
+## Authors
+
+Yu Hin Ng
+Lok Fung Lee
+Yuen Shan Leung
+Pik Shan Shih
+Wai Man Wong
+
+## Acknowledgments
+
+* Prof. Jungwon Seo
