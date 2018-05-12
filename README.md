@@ -1,7 +1,7 @@
 # Robotic-Barista
 
 This project works on developing a robotic barista using UR10, including functions of: 
-1. receiving order from Android app
+1. receiving order from [Android app](https://github.com/HKUST-MechFYDP-Robotics-Manipulation/Coffee-Ordering-App)
 2. preparing coffee using semi-automatic coffee machine
 3. ething latte art pattern
 4. detecting position of coffee cup using AprilTag
