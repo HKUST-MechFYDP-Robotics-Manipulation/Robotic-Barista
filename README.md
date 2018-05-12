@@ -20,7 +20,7 @@ The files contain main program for coffee and latte art making and supporting dr
 
 ## Getting Started
 
-Please read [User Manual.txt](Robotic-Barista/Robotic Barista/User Manual.txt) for details on launching.
+Please read User Manual.txt(Robotic-Barista/Robotic Barista/User Manual.txt) for details on launching.
 
 ## Authors
 
