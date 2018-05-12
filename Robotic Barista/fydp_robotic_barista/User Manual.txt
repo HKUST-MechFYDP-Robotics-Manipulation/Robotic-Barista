@@ -1,0 +1,43 @@
+
+Find cup position:
+
+1st terminal:
+roscore
+
+2nd terminal:
+source devel/setup.bash
+ROS_NAMESPACE=usb_cam rosrun image_proc image_proc
+
+
+3rd terminal:
+source devel/setup.bash
+roslaunch apriltags_ros example.launch
+
+4th terminal:
+source devel/setup.bash
+rosrun image_view image_view image:=/tag_detections_image
+
+5th terminal:
+source devel/setup.bash
+rosrun fydp_robotic_barista sensePosition.py
+
+
+
+Make coffee directly:
+
+1st terminal:
+roscore
+
+2nd terminal:
+source devel/setup.bash
+rosrun robotiq_force_torque_sensor rq_sensor
+
+3rd terminal:
+source devel/setup.bash
+roslaunch fydp_robotic_barista combine.launch
+
+4th terminal
+source devel/setup.bash
+rosrun fydp_robotic_barista coffee_barista.py
+
+

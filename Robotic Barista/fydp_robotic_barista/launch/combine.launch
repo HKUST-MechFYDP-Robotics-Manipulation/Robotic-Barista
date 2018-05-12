@@ -1,0 +1,33 @@
+<launch>
+
+  <!-- roslaunch ur10 launch files:-->
+
+  <include file="$(find ur_modern_driver)/launch/ur10_bringup.launch"> 
+    <arg name="robot_ip" value="192.168.1.102"/>
+  </include>
+
+
+  <!--node pkg="robotiq_force_torque_sensor" name="robotiq_force_torque_sensor" type="rq_sensor"/-->
+  
+  <include file="$(find ur10_moveit_config)/launch/ur10_moveit_planning_execution.launch"> 
+    <arg name="limited" value="true"/>
+  </include>
+
+  <include file="$(find ur10_moveit_config)/launch/moveit_rviz.launch"> 
+    <arg name="config" value="true"/>
+  </include>
+
+
+  <!-- rosrun gripper python files:-->
+
+  <node pkg="robotiq_c_model_control" name="CModelRtuNode" type="CModelRtuNode.py" output="screen" launch-prefix="xterm -e" args="/dev/ttyUSB1"/>
+
+  <node pkg="robotiq_c_model_control" name="CModelSimpleController" type="CModelSimpleController.py" output="screen" launch-prefix="xterm -e"/>
+
+  <node pkg="robotiq_c_model_control" name="CModelStatusListener" type="CModelStatusListener.py" output="screen" launch-prefix="xterm -e"/>
+  
+
+  
+</launch>
+
+
