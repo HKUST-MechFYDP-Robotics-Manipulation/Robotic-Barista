@@ -18,6 +18,10 @@ The files contain main program for coffee and latte art making and supporting dr
 * [Android](http://wiki.ros.org/android) - ROS-Android development
 * [usb_cam](http://wiki.ros.org/usb_cam) - ROS driver for USB camera
 
+## Getting Started
+
+Please read [User Manual.txt](Robotic-Barista/Robotic Barista/User Manual.txt) for details on launching.
+
 ## Authors
 
 Yu Hin Ng, Lok Fung Lee, Yuen Shan Leung, Pik Shan Shih, Wai Man Wong
